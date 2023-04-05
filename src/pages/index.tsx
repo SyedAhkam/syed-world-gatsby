@@ -1,13 +1,10 @@
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
-import { Box, Heading } from "@chakra-ui/react";
+import { Box, Flex, Heading, Stack } from "@chakra-ui/react";
+import Main from "../components/main";
 
 const IndexPage: React.FC<PageProps> = () => {
-  return (
-    <Box as="main">
-      <Heading as="h1">Hello, world!</Heading>
-    </Box>
-  );
+  return <Main>{"ifjewifewfuejfie".repeat(100)}</Main>;
 };
 
 export default IndexPage;

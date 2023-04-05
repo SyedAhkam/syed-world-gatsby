@@ -12,6 +12,7 @@ const config: GatsbyConfig = {
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
+    "gatsby-plugin-layout",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
