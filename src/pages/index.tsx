@@ -1,7 +1,7 @@
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
-import { Box, Flex, Heading, Stack } from "@chakra-ui/react";
 import Main from "../components/main";
+import { SEO } from "../components/seo";
 
 const IndexPage: React.FC<PageProps> = () => {
   return <Main>{"ifjewifewfuejfie".repeat(100)}</Main>;
@@ -9,4 +9,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage;
 
-export const Head: HeadFC = () => <title>Home Page</title>;
+export const Head: HeadFC = () => <SEO title="guest@syed-world" />;
